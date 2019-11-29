@@ -1,6 +1,6 @@
-package com.kdwilson.adventofcode.twentyeighteen;
+package com.joshMayfield.adventofcode.twentyeighteen;
 
-import com.kdwilson.adventofcode.AdventOfCodeFileUtils;
+import com.joshMayfield.adventofcode.AdventOfCodeFileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

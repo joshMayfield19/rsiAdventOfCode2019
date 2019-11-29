@@ -1,4 +1,4 @@
-package com.kdwilson.adventofcode;
+package com.joshMayfield.adventofcode;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
