@@ -1,6 +1,5 @@
 package com.joshMayfield.adventofcode;
 
-import com.joshMayfield.adventofcode.twentynineteen.day1TyrannyRocket.AdventSolutionDay1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -9,6 +8,5 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Application {
     public static void main(String... args) {
         ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
-        context.getBean(AdventSolutionDay1.class).findSolution();
     }
 }

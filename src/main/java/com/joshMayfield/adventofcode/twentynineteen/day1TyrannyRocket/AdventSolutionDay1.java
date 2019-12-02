@@ -4,7 +4,6 @@ import com.joshMayfield.adventofcode.AdventOfCodeFileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.util.List;
 
 @Component
@@ -16,7 +15,7 @@ public class AdventSolutionDay1 {
     @Autowired
     private AdventOfCodeFileUtils fileUtils;
 
-    @PostConstruct
+    //@PostConstruct
     public void findSolution() {
         List<String> input = fileUtils.readFile("2019", this.getClass());
         solvePart1(input);
