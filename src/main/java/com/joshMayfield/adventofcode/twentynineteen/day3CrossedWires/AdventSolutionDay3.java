@@ -20,7 +20,7 @@ public class AdventSolutionDay3 {
     @Autowired
     private AdventOfCodeFileUtils fileUtils;
 
-    @PostConstruct
+    //@PostConstruct
     public void findSolution() {
         List<String> input = fileUtils.readFile("2019", this.getClass());
         panelWires = new ArrayList<>();
