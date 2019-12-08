@@ -17,7 +17,7 @@ public class AdventSolutionDay4 {
     @Autowired
     private AdventOfCodeFileUtils fileUtils;
 
-    @PostConstruct
+    //@PostConstruct
     public void findSolution() {
         numOfOptions = 0;
         solvePart1();

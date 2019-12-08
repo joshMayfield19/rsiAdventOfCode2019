@@ -1,10 +1,9 @@
-package com.joshMayfield.adventofcode.twentynineteen.day21202ProgramAlarm;
+package com.joshMayfield.adventofcode.twentynineteen.day2ProgramAlarm;
 
 import com.joshMayfield.adventofcode.AdventOfCodeFileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.util.Arrays;
 import java.util.List;
 
